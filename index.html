@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Animacion DOM</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+		<link href="https://fonts.googleapis.com/css?family=Acme|Hammersmith+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+        <header id="title">
+            <a href="#"><h1> <i class="fa fa-gamepad" aria-hidden="true"></i> ANIMACIÓN CON DOM </h1></a>
+        </header>
+        <section id="form">
+            <div>
+                <button id="play" class="btn" type="button">JUGAR</button>
+            </div>
+<!-- Panel de juego, solo se mostrara cuando los usuarios empiecen a jugar -->
+            <div class="display-none" id="container">
+                <div>
+                    <center>
+                        <table class="board">
+                            <tr class="board-rows">
+                                <td class="board-cell" id="box1"></td>
+                                <td class="board-cell" id="box2"></td>
+                                <td class="board-cell" id="box3"></td>
+                                <td class="board-cell" id="box4"></td>
+                            </tr>
+                            <tr class="board-rows">
+                                <td class="board-cell" id="box5"></td>
+                                <td class="board-cell" id="box6"></td>
+                                <td class="board-cell" id="box7"></td>
+                                <td class="board-cell" id="box8"></td>
+                            </tr>
+                            <tr class="board-rows">
+                                <td class="board-cell" id="box9"></td>
+                                <td class="board-cell" id="box10"></td>
+                                <td class="board-cell" id="box11"></td>
+                                <td class="board-cell" id="box12"></td>
+                            </tr>
+                        </table>
+                    </center>
+                </div>
+
+
+                <div>
+                    <button id="reset" class="btn" type="reset">NUEVO JUEGO</button>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <p> Copyright © 2017 by Margarita, All Rights Reserved.</p>
+        </footer>
+        <script type="text/javascript" src="js/app.js"></script> 
+	</body>
+</html>
