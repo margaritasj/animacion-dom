@@ -4,8 +4,7 @@ Necesitamos generar 12 cuadros blancos en filas de 3. Uno de esos cuadros será 
 
 En el siguiente video explicamos un poco más el ejercicio:
 
-![Image](https://www.youtube.com/watch?time_continue=106&v=LtfSKzCjCC4)
-
+[![IMAGE ALT TEXT](https://www.youtube.com/watch?time_continue=106&v=LtfSKzCjCC4)]
 
 ## Tips
 
